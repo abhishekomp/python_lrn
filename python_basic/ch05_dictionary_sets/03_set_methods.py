@@ -11,7 +11,7 @@ b.add(5)
 print(len(b))
 
 # Remove an element from a Set
-b.remove(5)
+b.remove(5)  # Removes elelment 5 from the set
 b.remove(15)  # will throw an error because element 15 does not exist in the Set
 
 # Remove a random element from a Set
