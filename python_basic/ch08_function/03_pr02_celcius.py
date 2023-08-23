@@ -3,4 +3,5 @@ def tofareinheit(celcius):
     return fareinheit
 
 
-print(tofareinheit(0))
+celciustemp = 0
+print(f"{celciustemp} celcius = {tofareinheit(0)} fareinheit")

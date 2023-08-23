@@ -9,4 +9,4 @@ sum = calcSum(num)
 print(f"Sum of all natural numbers upto {num} is {sum}")
 
 n = 8
-print("*" * n)  # prints * n times
+print("*" * n)  # prints "*"" n times
