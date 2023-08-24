@@ -7,7 +7,7 @@ class Programmer:
 
     def getInfo(self):
         print(
-            f"The name of the programmer is {self.name} and the product is {self.product}"
+            f"The name of the programmer is {self.company} programmer {self.name} and the product is {self.product}"
         )
 
 

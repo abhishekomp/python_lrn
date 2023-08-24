@@ -13,7 +13,7 @@ class Calculator:
         print(f"The squareroot of {self.number} is {self.number **0.5}")
 
 
-a = Calculator(3)
+a = Calculator(16)
 a.square()
 a.squareroot()
 a.cube()

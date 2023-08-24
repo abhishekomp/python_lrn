@@ -1,3 +1,8 @@
+"""
+Seats: 1  2  3  4  5  6  7  8  9  10
+"""
+
+
 class Train:
     def __init__(self, name, fare, seats):
         self.name = name
