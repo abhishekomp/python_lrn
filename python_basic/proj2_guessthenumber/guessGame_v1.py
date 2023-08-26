@@ -18,7 +18,7 @@ def playGame():
 
 
 # print(f"\n\n")
-print(f"\n\n****** Welcome to 'GUESS THE NUMBER GAME 2023' ****** ")
+print(f"\n\n****** Welcome to 'GUESS THE NUMBER GAME' ****** ")
 print(f"You need to guess the number that computer has selected from 0 till 100")
 randomNumber = random.randint(1, 100)
 # print(randomNumber)
