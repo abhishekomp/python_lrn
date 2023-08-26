@@ -1,4 +1,5 @@
 # Write a program to represent a vector of n dimentions return the dimension of the vector
+# Enhancement to do: When adding 2 vectors if they are not of same dimensions then show a message that their dimensions are not same and hence cannot be added
 class Vector:
     def __init__(self, vec):
         self.vec = vec

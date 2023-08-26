@@ -1,4 +1,6 @@
 # Write a program to represent a vector of n dimentions and methods to add and multiply 2 such vectors
+
+
 class Vector:
     def __init__(self, vec):
         self.vec = vec
