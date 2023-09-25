@@ -20,8 +20,19 @@ class Box:
     return self.length * self.breadth
   
   # Getting length using a dunder method. Using a dunder method in another method works fine for len
-  def getLenght(self):
+  def getLengthByInvokingDunderMethod(self):
     return len(self)
+
+  # Getting length from the instance variable
+  def getLength(self):
+    return self.length
+
+  # Getting length from the instance variable
+  def getBreadth(self):
+    return self.breadth
+
+  def calculateArea(self):
+    return self.getLength() * self.getBreadth()
   
   # Invoking dunder method to get the breadth does not work but it works to get the length using len dunder method
   # def getAreaUsingDunder(self):
@@ -34,12 +45,14 @@ class Box:
 # Usage of the Box class and dunder method
 box = Box(10, 5)
 print(f"Area: {box.getArea()}")
+print(f"Area using calculate area: {box.calculateArea()}")
 print(f"Box Dimensions: {box.length}, {box.breadth}")
 print(box)
 print(f"Area after length increment: {box.incrementLengthAndGetArea(10)}")
 print(f"Box Dimensions: {box.length}, {box.breadth}")
+print(f"Box Dimensions using method inovocation: {box.getLength()}, {box.getBreadth()}")
 print(f"Length: {len(box)}")
-print(f"Length: {box.getLenght()}")
+print(f"Length: {box.getLengthByInvokingDunderMethod()}")
 
 # NameError: name 'breadth' is not defined. Cannot invoke this dunder method.
 # print(f"Length: {breadth(box)}")
